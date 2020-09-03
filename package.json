@@ -1,0 +1,23 @@
+{
+  "name": "Webpack-Test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sentry/webpack-plugin": "^1.12.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.22.3",
+    "@sentry/tracing": "^5.22.3"
+  }
+}
